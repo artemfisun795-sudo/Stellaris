@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hornGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E07A5F" />
+      <stop offset="100%" stop-color="#073B3A" />
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E2E8" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="300" cy="440" rx="160" ry="18" fill="#000000" opacity="0.1" />
+  <g transform="translate(60, 20)">
+    <polygon points="170,390 140,390 160,280 200,280" fill="#D5D5DF" />
+    <polygon points="290,390 260,390 270,300 300,300" fill="#D5D5DF" />
+    <polygon points="120,390 90,390 130,240 170,240" fill="#EAEAEA" />
+    <polygon points="240,390 210,390 250,260 280,260" fill="#EAEAEA" />
+    <polygon points="130,240 270,260 320,180 220,160 150,200" fill="url(#bodyGrad)" />
+    <polygon points="220,160 320,180 280,110 200,120" fill="#FFFFFF" />
+    <polygon points="200,120 160,40 220,20 250,70" fill="url(#bodyGrad)" />
+    <polygon points="160,40 105,65 125,100 200,120" fill="#FFFFFF" />
+    <polygon points="160,40 135,-30 175,25" fill="url(#hornGrad)" />
+    <polygon points="200,30 215,0 220,20" fill="#E07A5F" />
+    <circle cx="50" cy="100" r="14" fill="#FFD5CD" />
+    <circle cx="420" cy="80" r="10" fill="#FFD5CD" />
+    <circle cx="450" cy="350" r="16" fill="#073B3A" opacity="0.2" />
+  </g>
+</svg>

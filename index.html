@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellaris</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logoipsum-custom-logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">  
+        <div class="container"> 
+            <nav class="header_nav">
+                <!-- Картинка 1: Логотип -->
+                <img src="images/logoipsum-custom-logo.svg" alt="Stellaris" class="header_logo">
+                <ul class="header_list">
+                    <li class="header_list-item"><a class="header_list-link active" href="#">Home</a></li>
+                    <li class="header_list-item"><a class="header_list-link" href="#">Features</a></li>
+                    <li class="header_list-item"><a class="header_list-link" href="#">Pricing</a></li>
+                    <li class="header_list-item"><a class="header_list-link" href="#">Blog</a></li>
+                </ul>
+                
+                <div class="header_actions">
+                    <a class="header_button" href="#">Get Started</a>
+                    <!-- Кнопка плавной прокрутки вниз -->
+                    <a class="header_scroll-btn" href="#banner" aria-label="Scroll down">
+                        <img src="images/arrows-down.svg" alt="Scroll Down">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section class="hero">
+            <div class="container hero_container">
+                <div class="hero_content">
+                    <h1 class="hero_title">Cornelia<br>is the new<br><span>black</span></h1>
+                    <!-- Картинка 2: Главная 3D-иллюстрация в Hero -->
+                    <div class="img-placeholder hero_img">
+                        <img src="images/hero-unicorn.svg" alt="Hero Illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. PINK BANNER SECTION -->
+        <section id="banner" class="banner-pink">
+            <div class="container text-center">
+                <h2 class="banner_title">Toward infinity and beyond</h2>
+                <p class="banner_desc">
+                    Discover how our end-to-end suite helps you optimize pricing, reduce churn, and scale your operations effortlessly.
+                </p>
+                <!-- Картинка 3: Иллюстрация для баннера -->
+                <div class="img-placeholder banner_img">
+                    <img src="images/hero-unicorn.svg" alt="Infinity banner illustration">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. DARK FEATURE SECTION -->
+        <section class="feature-dark">
+            <div class="container feature_grid">
+                <div class="feature_text">
+                    <h2 class="section_title light">Choose your destiny</h2>
+                    <p class="section_desc light">
+                        Take full control of your workflow with intelligent features tailored to bring clarity and high efficiency to every step of your business.
+                    </p>
+                    <a href="#" class="btn-outline-light">Get Started</a>
+                </div>
+                <!-- Картинка 4: Тёмный 3D-объект справа -->
+                <div class="img-placeholder feature_img-dark">
+                    <img src="images/destiny-unicorn.svg" alt="Choose your destiny illustration">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FEATURE WHITE 1 (Always Go Further) -->
+        <section class="feature-white">
+            <div class="container feature_grid">
+                <!-- Картинка 5: Круглый розовый аватар слева -->
+                <div class="img-placeholder circle_img">
+                    <img src="images/go-further.svg" alt="Always go further">
+                </div>
+                <div class="feature_text">
+                    <h2 class="section_title pink">Always Go further</h2>
+                    <p class="section_desc">
+                        Push the boundaries of design and engineering. Build scalable solutions that keep your users engaged every single day.
+                    </p>
+                    <a href="#" class="link-arrow">Learn More →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. FEATURE WHITE 2 (Premium 3D Quality) -->
+        <section class="feature-white">
+            <div class="container feature_grid reverse">
+                <div class="feature_text">
+                    <h2 class="section_title dark">Premium 3D Quality</h2>
+                    <p class="section_desc">
+                        Enjoy crystal-clear resolution and precision crafted graphics engineered for modern digital platforms.
+                    </p>
+                </div>
+                <!-- Картинка 6: Круглая тёмная плашка справа -->
+                <div class="img-placeholder circle_img dark_bg">
+                    <img src="images/quality-3d.svg" alt="3D Quality illustration">
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. SHOWCASE ROW (Let the magic happen) -->
+        <section class="showcase">
+            <div class="container text-center">
+                <h2 class="section_title pink">Let the magic happen</h2>
+                <p class="section_desc center">Explore our lineup of high-impact visuals designed to stand out.</p>
+                <!-- Картинка 7: Горизонтальный ряд элементов -->
+                <div class="img-placeholder showcase_row">
+                    <img src="images/hero-unicorn.svg" alt="Lineup of models">
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. REVIEWS GRID (They talk about it better than us) -->
+        <section class="reviews">
+            <div class="container">
+                <h2 class="section_title center pink">They talk about it better than us</h2>
+                <div class="reviews_grid">
+                    <div class="review_card">
+                        <div class="user_info">
+                            <div class="avatar-placeholder"></div>
+                            <div>
+                                <h4>Sarah Jenkins</h4>
+                                <span>Product Designer</span>
+                            </div>
+                        </div>
+                        <p>This product completely changed how we pitch our ideas to clients!</p>
+                    </div>
+                    <div class="review_card">
+                        <div class="user_info">
+                            <div class="avatar-placeholder"></div>
+                            <div>
+                                <h4>Mark Ruffle</h4>
+                                <span>Tech Lead</span>
+                            </div>
+                        </div>
+                        <p>Super fast rendering, seamless workflow, and gorgeous visuals out of the box.</p>
+                    </div>
+                    <div class="review_card">
+                        <div class="user_info">
+                            <div class="avatar-placeholder"></div>
+                            <div>
+                                <h4>Elena Rostova</h4>
+                                <span>Creative Director</span>
+                            </div>
+                        </div>
+                        <p>The attention to detail is mind-blowing. Highly recommended for creative agencies.</p>
+                    </div>
+                    <div class="review_card">
+                        <div class="user_info">
+                            <div class="avatar-placeholder"></div>
+                            <div>
+                                <h4>David Miller</h4>
+                                <span>Founder @ Launch</span>
+                            </div>
+                        </div>
+                        <p>Outstanding assets! Made our landing page convert 40% better immediately.</p>
+                    </div>
+                    <div class="review_card">
+                        <div class="user_info">
+                            <div class="avatar-placeholder"></div>
+                            <div>
+                                <h4>Anna Schmidt</h4>
+                                <span>UI/UX Designer</span>
+                            </div>
+                        </div>
+                        <p>Clean, crisp, and extremely easy to integrate into any web project.</p>
+                    </div>
+                    <div class="review_card">
+                        <div class="user_info">
+                            <div class="avatar-placeholder"></div>
+                            <div>
+                                <h4>Lucas Vance</h4>
+                                <span>Marketing Director</span>
+                            </div>
+                        </div>
+                        <p>The results speak for themselves. Absolutely stunning execution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. DETAILS GRID (Each lesser detail matter) -->
+        <section class="details">
+            <div class="container feature_grid">
+                <!-- Картинка 14: Группа деталей слева -->
+                <div class="img-placeholder details_img-group">
+                    <img src="images/go-further.svg" alt="Detail elements group">
+                </div>
+                <div class="feature_text">
+                    <h2 class="section_title dark">Each lesser detail matter</h2>
+                    <p class="section_desc">
+                        Every angle, texture, and light source is tuned to perfection to ensure maximum aesthetic appeal.
+                    </p>
+                    <a href="#" class="btn-outline-dark">Select Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. ICON FEATURE (Unicorns exist) -->
+        <section class="icon-feature">
+            <div class="container feature_grid">
+                <div class="feature_text">
+                    <div class="icon_box">
+                        <span class="icon_symbol">❖</span>
+                    </div>
+                    <h2 class="section_title dark">Unicorns exist</h2>
+                    <p class="section_desc">
+                        Bring magic to your software. Elevate user experience with cutting edge visuals.
+                    </p>
+                    <a href="#" class="btn-outline-dark">Download Asset</a>
+                </div>
+                <!-- Картинка 16: Большой 3D-объект справа -->
+                <div class="img-placeholder big_object_img">
+                    <img src="images/hero-unicorn.svg" alt="Unicorn illustration">
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. BOTTOM FOOTER CTA -->
+        <section class="footer-cta">
+            <div class="container text-center">
+                <h2 class="cta_title">Get started with<br>Cornelia today</h2>
+                <div class="cta_buttons">
+                    <a href="#" class="btn-cta-store">
+                        <span>Download on the</span>
+                        <strong>App Store</strong>
+                    </a>
+                    <a href="#" class="btn-cta-store">
+                        <span>GET IT ON</span>
+                        <strong>Google Play</strong>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
